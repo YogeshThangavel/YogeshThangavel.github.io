@@ -1,0 +1,55 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: url(header.JPG);
+	background-size: cover;
+	height: 100%;
+	
+}
+h2{
+	
+	color: lightblue;
+	font-family: times new roman;
+	border-bottom: 2px solid darkblue;
+	width: 400px;
+	box-shadow: 4px 4px 5px silver;
+	margin-top: 80px;
+	
+
+}
+
+
+ 
+.btna{
+	 font-weight: 700;
+  text-transform: uppercase;
+
+  font-family: 'Montserrat', sans-serif;
+
+	padding: 1rem 2rem;
+	border-width: 5px;
+  	cursor: pointer;
+  	background-color: transparent;
+  	border-color: none; 
+  	border-radius: 300px;
+}
+.btna:hover{
+	background-color: transparent ;
+  	border-color: lightblue;
+}
+
+.container{
+	
+	margin-top: 220px;
+
+}
+
+.tran{
+transition:  1s;	
+}
+.tran:hover{
+	transform: scale(1.1);
+}
